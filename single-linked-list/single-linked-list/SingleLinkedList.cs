@@ -40,9 +40,22 @@ namespace single_linked_list
             head = newNode; 
         }
 
-        public void printList()
+        public void printList(Node head)
         {
-            throw new NotImplementedException();
+            if (head == null)
+            {
+                Console.WriteLine("List is empty");
+                return;
+            }
+
+            Node curr = head;
+            while(curr != null)
+            {
+                Console.WriteLine(curr.data +"->");
+                curr = curr.next;
+            }
+            // when it's last node, i.e currentNode.next is null.Simply print NULL.
+            Console.WriteLine("NULL");
         }
     }
 }

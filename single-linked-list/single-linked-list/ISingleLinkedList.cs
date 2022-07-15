@@ -13,6 +13,6 @@ namespace single_linked_list
 		//public void addLast(String data);
 
 		//Print List | Traversal
-		public void printList();
+		public void printList(SingleLinkedList.Node head);
 	}
 }
