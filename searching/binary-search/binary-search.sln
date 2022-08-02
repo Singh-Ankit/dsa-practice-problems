@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary-search", "binary-search\binary-search.csproj", "{7723C641-D44F-4F88-963C-E949A15C64C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "find-first-last-occurrence", "find-first-last-occurrence\find-first-last-occurrence.csproj", "{F79CA6BF-A104-4A86-9A1C-35989022D35F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-first-last-occurrence", "find-first-last-occurrence\find-first-last-occurrence.csproj", "{F79CA6BF-A104-4A86-9A1C-35989022D35F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "count-element", "count-element\count-element.csproj", "{CADFD345-44E2-43BE-98BA-99BE2FBBF5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "count-array-rotation", "count-array-rotation\count-array-rotation.csproj", "{83DB9ACB-BE8F-44D4-84EA-B8E20A3B568E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-floor-ceil-sorted-array", "find-floor-ceil-sorted-array\find-floor-ceil-sorted-array.csproj", "{A6242A08-263E-4D00-AB9B-9F191E446508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "peak-bitonic-array", "peak-bitonic-array\peak-bitonic-array.csproj", "{E757CB1F-8C4D-42F6-AE96-7C5606FFB036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "search-bitonic-array", "search-bitnoic-array\search-bitonic-array.csproj", "{468FEC6B-3B85-404C-AD3D-3C196C6001F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7723C641-D44F-4F88-963C-E949A15C64C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7723C641-D44F-4F88-963C-E949A15C64C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7723C641-D44F-4F88-963C-E949A15C64C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7723C641-D44F-4F88-963C-E949A15C64C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F79CA6BF-A104-4A86-9A1C-35989022D35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F79CA6BF-A104-4A86-9A1C-35989022D35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F79CA6BF-A104-4A86-9A1C-35989022D35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F79CA6BF-A104-4A86-9A1C-35989022D35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADFD345-44E2-43BE-98BA-99BE2FBBF5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADFD345-44E2-43BE-98BA-99BE2FBBF5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADFD345-44E2-43BE-98BA-99BE2FBBF5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADFD345-44E2-43BE-98BA-99BE2FBBF5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DB9ACB-BE8F-44D4-84EA-B8E20A3B568E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DB9ACB-BE8F-44D4-84EA-B8E20A3B568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DB9ACB-BE8F-44D4-84EA-B8E20A3B568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DB9ACB-BE8F-44D4-84EA-B8E20A3B568E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6242A08-263E-4D00-AB9B-9F191E446508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6242A08-263E-4D00-AB9B-9F191E446508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6242A08-263E-4D00-AB9B-9F191E446508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6242A08-263E-4D00-AB9B-9F191E446508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E757CB1F-8C4D-42F6-AE96-7C5606FFB036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E757CB1F-8C4D-42F6-AE96-7C5606FFB036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E757CB1F-8C4D-42F6-AE96-7C5606FFB036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E757CB1F-8C4D-42F6-AE96-7C5606FFB036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468FEC6B-3B85-404C-AD3D-3C196C6001F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468FEC6B-3B85-404C-AD3D-3C196C6001F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468FEC6B-3B85-404C-AD3D-3C196C6001F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468FEC6B-3B85-404C-AD3D-3C196C6001F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
