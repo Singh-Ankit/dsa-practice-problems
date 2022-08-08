@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue", "queue\queue.csproj", "{537C73FE-D98C-492B-8297-105DC08226E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue-linked-list", "queue-linked-list\queue-linked-list.csproj", "{7B6DE8CA-7DC2-4EBD-B81E-23B465E7FF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{537C73FE-D98C-492B-8297-105DC08226E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537C73FE-D98C-492B-8297-105DC08226E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537C73FE-D98C-492B-8297-105DC08226E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537C73FE-D98C-492B-8297-105DC08226E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6DE8CA-7DC2-4EBD-B81E-23B465E7FF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6DE8CA-7DC2-4EBD-B81E-23B465E7FF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6DE8CA-7DC2-4EBD-B81E-23B465E7FF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6DE8CA-7DC2-4EBD-B81E-23B465E7FF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6076F20E-DDA4-45EA-87E6-76E818A5488F}
+	EndGlobalSection
+EndGlobal

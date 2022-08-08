@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "circular-linked-list", "circular-linked-list\circular-linked-list.csproj", "{BABF11BA-D356-4092-8B85-A1164B4EEF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABF11BA-D356-4092-8B85-A1164B4EEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABF11BA-D356-4092-8B85-A1164B4EEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABF11BA-D356-4092-8B85-A1164B4EEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABF11BA-D356-4092-8B85-A1164B4EEF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBFE98A0-66C1-4527-82F3-708269DB4D85}
+	EndGlobalSection
+EndGlobal

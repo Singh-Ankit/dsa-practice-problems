@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace preorder
+namespace tree_traversal
 {
-    internal class Program
+    public class Program
     {
         public class Node
         {
@@ -52,6 +52,8 @@ namespace preorder
             // Tree traversal
             public static void PreOrderTraversal(Node root)
             {
+                // 1.Root subtree ----> 2.Left -----> 3.Right 
+
                 //CORNER CASE : when a node is null, simply return 
                 if (root == null) { return; }
 
@@ -64,6 +66,34 @@ namespace preorder
                 PreOrderTraversal(root.right);
             }
 
+            //Time complexity: O(n)
+            public static void InOrderTravrsal(Node root) 
+            {
+                // 1.Left subtree ----> 2.Root -----> 3.Right subtree
+                
+                //CORNER CASE : when a node is null, simply return 
+                if (root == null) { return; }
+
+                InOrderTravrsal(root.left);
+                //root in middle
+                Console.WriteLine(root.data+ "");
+                InOrderTravrsal(root.right);    
+            }
+
+            //Time complexity: O(n)
+            public static void PostOrderTraversal(Node root)
+            {
+
+                // 1.Left subtree ----> 2.Right subtree -----> 3.Root 
+
+                //CORNER CASE : when a node is null, simply return 
+                if (root == null) { return; }
+
+                PostOrderTraversal(root.left);
+                PostOrderTraversal(root.right);
+                //root in last
+                Console.WriteLine(root.data + "");
+            }
         }
 
         static void Main(string[] args)
@@ -74,9 +104,12 @@ namespace preorder
             int[] arr = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
             Node root = BinaryTree.BuildTree(arr);
             Console.WriteLine(root.data);
-            Console.WriteLine("Let's Traverser Now");
+            Console.WriteLine("Pre-Order Let's Traverser Now");
             BinaryTree.PreOrderTraversal(root);
-
+            Console.WriteLine("In-Order Let's Traverser Now");
+            BinaryTree.InOrderTravrsal(root);
+            Console.WriteLine("Post - Order Let's Traverser Now");
+            BinaryTree.PostOrderTraversal(root);
         }
     }
 }

@@ -56,8 +56,8 @@ namespace find_floor_ceil_sorted_array
         {
             int[] arr = { 1,2,3,4,8,10,10,12,14 };
             Console.WriteLine("Hello World!");
-            Console.WriteLine(FindFloorInSortedArray(arr,9,5));
-            Console.WriteLine(FindCeilInSortedArray(arr, 9, 5));
+            Console.WriteLine(FindFloorInSortedArray(arr,9,19));
+            Console.WriteLine(FindCeilInSortedArray(arr, 9, 19));
         }
     }
 }

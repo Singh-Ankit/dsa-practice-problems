@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recursion", "recursion\recursion.csproj", "{5BA762A9-14EB-4378-BD0A-084ED7F4FA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recursion", "recursion\recursion.csproj", "{5BA762A9-14EB-4378-BD0A-084ED7F4FA79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonacci-series", "fibonacci-series\fibonacci-series.csproj", "{57E55628-1119-40CA-A987-09DCF60B2AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonacci-series", "fibonacci-series\fibonacci-series.csproj", "{57E55628-1119-40CA-A987-09DCF60B2AF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factorial", "factorial\factorial.csproj", "{822060C6-B230-45D6-BC5E-438F6674E2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "factorial", "factorial\factorial.csproj", "{822060C6-B230-45D6-BC5E-438F6674E2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum-of-digits", "sum-of-digits\sum-of-digits.csproj", "{9595F3F6-F929-452B-8CE3-6400D3E416AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sum-of-digits", "sum-of-digits\sum-of-digits.csproj", "{9595F3F6-F929-452B-8CE3-6400D3E416AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-digits", "reverse-digits\reverse-digits.csproj", "{9932351D-024D-492D-BBB9-89BC627413CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9595F3F6-F929-452B-8CE3-6400D3E416AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9595F3F6-F929-452B-8CE3-6400D3E416AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9595F3F6-F929-452B-8CE3-6400D3E416AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9932351D-024D-492D-BBB9-89BC627413CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9932351D-024D-492D-BBB9-89BC627413CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9932351D-024D-492D-BBB9-89BC627413CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9932351D-024D-492D-BBB9-89BC627413CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
