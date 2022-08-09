@@ -11,7 +11,8 @@ namespace min_max_node_binary_tree
     *   we must visit every node to figure out maximum. Recursilvely we must find max/min node in a left subtree and then in right subtree
     *   At any given node suppose it is null return the most min number of an integer or - infinity.
     *   
-    *  Time complexity : O(n)
+    *  Time complexity : O(n) all node visited once
+    *  Space Complexity: O(H) will be visiting all nodes, but at a time will go 'H' height deeper in our call stack using recursion. All depends on MAX height.
     */
 
     public class Program
@@ -36,6 +37,30 @@ namespace min_max_node_binary_tree
             int min = Math.Min(root.data, Math.Min(FindMinNode(root.left), FindMinNode(root.right)));
             return min;
         }
+
+        //---- another simple code
+        public static int findmin(Node root)
+        {
+            if (root == null)
+            {
+                return int.MaxValue;
+            }
+
+            int data = root.data;
+            int leftdata = findmin(root.left);
+            int rightdata = findmin(root.right);
+
+            if (leftdata < data)
+            {
+                data = leftdata;
+            }
+            if (rightdata < data)
+            {
+                data = rightdata;
+            }
+            return data;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -45,6 +70,7 @@ namespace min_max_node_binary_tree
 
             Console.WriteLine("Max of Binary Tree: " + FindMaxNode(root));
             Console.WriteLine("min of Binary Tree: " + FindMinNode(root));
+            Console.WriteLine("Another approach min of Binary Tree: " + findmin(root));
         }
     }
 }
